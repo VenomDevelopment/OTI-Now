@@ -531,6 +531,8 @@ body{
     transform: rotate(-60deg);
     color: #0A1832;
     font-size: 32px;
+    width: 40px;
+    height: 40px;
 }
 .home_section_seven{
     height: auto;
@@ -888,9 +890,6 @@ body{
     }
     .home_sec6_right_card {
         padding: 10px 10px;
-        /* flex-wrap: wrap;
-        align-items: end;
-        justify-content: end; */
     }
     .home_sect7_main {
         padding: 10px 10px;
