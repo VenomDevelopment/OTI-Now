@@ -47,15 +47,28 @@ body{
     border: none;
     box-shadow: none !important;
 }
-.hero_section{
-    background-image: url(../../assets/img/hero1.svg);
-    height: auto;
+.hero_section {
+    position: relative;
     min-height: calc(100vh - 83px);
-    width: 100%;
-    background-size: cover;
-    background-position: bottom;
     margin-top: 83px;
+    overflow: hidden;
 }
+
+#lottie-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0; /* behind content */
+}
+
+.hero_text_main,
+.hero_btns {
+    position: relative;
+    z-index: 1; /* keep text above background */
+}
+
 .hero_text_main{
     text-align: center;
     padding-top: 140px;
